@@ -36,38 +36,56 @@
     </nav>
     <header class="page-header header container-fluid">
         <div class="description">
-            <h1>Welcome to your personalized habit tracker!</h1>
-            <p>To get started, create an account and start building your profile with habits you want to create. For inspiration or futher learning check out resources on habit mkaing below!</p>
-            <button class="btn-lg" onclick="window.location.href='./profile.html'">Create an account!</button>
+            <h1>Create and plan your habits here!</h1>
+            <p>Fill out the form below to get started on your habit making journey. We will walk you through every step of the process.</p>
         </div>
     </header>
+    <form id="regForm" action="">
+        <div class="tab">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        </div>
+        <div class="tab">
+          <label for="habitNumber">Select the number of habits you wish to add to your profile</label>
+          <select class="form-control" id="habitNumber">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>        
+        </div>
+        <div class="tab">
+
+        </div>
+        <div class="tab">
+
+        </div>
+        <div style="overflow:auto;">
+            <div style="float:right;">
+              <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+              <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+            </div>
+        </div>
+        <div style="text-align:center;margin-top:40px;">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+    </form>
     <div class="container features">
-        <h1>Resources</h1>
         <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3 class="feature-title">Atomic Habbits by James Clear</h3>
-                <a href="https://jamesclear.com/atomic-habits"><img src="https://miro.medium.com/max/1200/1*tQszPBlBdi522xW1DnhwgQ.jpeg" class="img-fluid"></a>
-                <p>An incredible book on practical and proven ways to build and continue good habits while breaking bad ones.</p>
+                <h3 class="feature-title">Lorem ipsum</h3>
+                <img src="" class="img-fluid">
+                <p></p>
             </div>
             
             <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3 class="feature-title">The Mindset Mentor</h3>
-                <a href="https://robdial.com/podcast/"><img src="https://vrnttest.files.wordpress.com/2021/03/mindset-mentor.png?w=1200" class="img-fluid"></a>
-                <p>Podcaster Rob Dial helps people find their true and full potential both professionally and personally.</p>
-            </div>
-            
-            <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3 class="feature-title">Get in Touch!</h3>
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Name" name="">
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Email Address" name="email">
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" rows="4"></textarea>
-                </div>
-                <input type="submit" class="btn-lg" value="Send" name="">
+                <h3 class="feature-title">Lorem ipsum</h3>
+                <img src="" class="img-fluid">
+                <p></p>
             </div>
         </div>
     </div>
@@ -81,9 +99,10 @@
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12">
                 <h6 class="text-uppercase font-weight-bold">Contact</h6>
-                <p>
-                <br/>helendc@live.unc.edu
-                <br/></p>
+                <p>1640 Riverside Drive, Hill Valley, California
+                <br/>info@mywebsite.com
+                <br/>+ 01 234 567 88
+                <br/>+ 01 234 567 89</p>
             </div>
         <div>
         <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>

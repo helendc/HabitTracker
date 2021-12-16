@@ -1,10 +1,10 @@
 body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
+    background: #fff5e6;
 }
 .navbar {
-    background:#4496ac;
+    background:#2a6592;
 }
 .nav-link,
 .navbar-brand {
@@ -34,23 +34,30 @@ body {
 	text-align: center;
 }
 .description h1 {
-	color: #6ab446;
+	color: #2a6592;
 }
 .description p {
-	color: #fff;
+	color: #8ec3eb;
 	font-size: 1.3rem;
 	line-height: 1.5;
 }
-.description button {
-    border:1px solid #6ab446;
-    background:#6ab446;
+button {
+    border:1px solid #2a6592;
+    background:#2a6592;
     border-radius: 0;
     color:#fff;
 }
-.description button:hover {
-	border:1px solid #fff;
-    background:#fff;
+button:hover {
+	border:1px solid #8ec3eb;
+    background:#8ec3eb;
     color:#000;
+}
+
+input .btn{
+    border:1px solid #2a6592;
+    background:#2a6592;
+    border-radius: 0;
+    color:#fff;
 }
 .features {
 	margin: 4em auto;
@@ -74,12 +81,12 @@ body {
 .features input {
 	border-radius: 0;
 }
-.features .btn {
-    background-color: #589b37;
-    border: 1px solid #589b37;
+/* .features .btn {
+    background-color: #2a6592;
+    border: 1px solid #2a6592;
     color: #fff;
     margin-top: 20px;
-}
+} */
 .features .btn:hover {
     background-color: #333;
     border: 1px solid #333;
@@ -115,3 +122,60 @@ body {
         margin: 0;
     }
 }
+/* form {
+    position : relative;
+    width  : 740px;
+    margin : 0 auto;
+    padding: 2em;
+    box-sizing: border-box;
+    background : #FFF;
+  } */
+
+  #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+  }
+  
+  /* Style the input fields */
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  /* Make circles that indicate the steps of the form: */
+  .step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    background-color: #2a6592;
+  }

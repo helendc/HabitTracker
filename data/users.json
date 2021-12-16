@@ -1,0 +1,23 @@
+{
+    "0": {
+      "id": 0,
+      "username": "username",
+      "password": "password"
+    },
+    "claire": {
+      "username": "claire",
+      "password": "password"
+    },
+    "chelsea": {
+      "username": "chelsea",
+      "password": "pass1"
+    },
+    "ellie": {
+      "username": "ellie",
+      "password": "pass1"
+    },
+    "helen": {
+      "username": "helen",
+      "password": "h"
+    }
+  }
